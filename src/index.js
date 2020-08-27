@@ -32,7 +32,7 @@ function toyCreator() {
       return response.json();
       });
       .then(function(object) { 
-        h2 = document.createElement(h2)
+        h2 = document.createElement('h2')
       });
     
   };
