@@ -20,5 +20,11 @@ function toyCreator() {
     name: name
   };
   let configureObj = { 
-    
+            method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify(formData)
+    };
 }
