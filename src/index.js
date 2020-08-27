@@ -16,5 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 function toyCreator() { 
-  let toy 
+  let toyData = { 
+    name: name};
 }
