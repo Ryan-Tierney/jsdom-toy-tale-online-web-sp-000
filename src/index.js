@@ -25,7 +25,7 @@ function toyCreator() {
           "Content-Type": "application/json",
           "Accept": "application/json"
         },
-  body: JSON.stringify(formData)
+  body: JSON.stringify(toyData)
   };
   return fetch("http://localhost:3000/toys", configureObj) { 
   
