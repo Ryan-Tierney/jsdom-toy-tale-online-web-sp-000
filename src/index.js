@@ -36,7 +36,8 @@ function toyCreator() {
       });
       .then(function(object) { 
         h2 = document.createElement('h2')
-        h2.innerHTML = object.name
+        h2.innerHTML = object.name;
+        
       });
     
   };
