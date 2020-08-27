@@ -17,7 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function toyCreator() { 
   let toyData = { 
-    name: name
+    name: name,
+    image: image, 
+    likes: likes
   };
   let configureObj = { 
             method: "POST",
