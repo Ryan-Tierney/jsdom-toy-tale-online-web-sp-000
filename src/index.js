@@ -39,7 +39,18 @@ function toyCreator() {
         h2 = document.createElement('h2');
         h2.innerHTML = object.name;
         document.body.appendChild(h2);
-      });
+      })
+      .then(function(object) { 
+        img = document.createElement('img');
+        img.innerHTML = object.image; 
+        document.body.appendChild(img);
+      })
+      .then(function(object) { 
+        p = document.createElement('p');
+        p.innerHTML = object.likes; 
+        document.body.appenChild(p);
+      })
+      })
     
   }
 }
