@@ -50,7 +50,4 @@ function toyCreator() {
         p.innerHTML = object.likes; 
         document.body.appenChild(p);
       })
-      })
-    
-  }
 }
