@@ -28,7 +28,9 @@ function toyCreator() {
   body: JSON.stringify(toyData)
   };
   return fetch("http://localhost:3000/toys", configureObj) { 
-  
+          .then(function(response) {
+          return response.json();
+        })
     
   };
 }
