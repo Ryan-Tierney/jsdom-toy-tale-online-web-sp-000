@@ -33,7 +33,7 @@ function toyCreator() {
   return fetch("http://localhost:3000/toys", configureObj) { 
       .then(function(response) {
       return response.json();
-      });
+      })
       .then(function(object) { 
         h2 = document.createElement('h2');
         h2.innerHTML = object.name;
