@@ -30,10 +30,10 @@ function toyCreator() {
   body: JSON.stringify(toyData)
   };
   
-    return fetch("http://localhost:3000/toys", configObj)
-        .then(function(response) {
-          return response.json();
-        })
+    return fetch("http://localhost:3000/toys", configureObj)
+      .then(function(response) {
+        return response.json();
+      })
 
       .then(function(object) { 
         h2 = document.createElement('h2');
