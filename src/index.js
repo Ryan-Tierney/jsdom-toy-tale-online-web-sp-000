@@ -27,5 +27,5 @@ function toyCreator() {
         },
   body: JSON.stringify(formData)
   };
-  return fetch()
+  return fetch("http://localhost:3000/toys", configureObj)
 }
