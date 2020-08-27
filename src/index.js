@@ -26,5 +26,5 @@ function toyCreator() {
           "Accept": "application/json"
         },
         body: JSON.stringify(formData)
-    };
+  };
 }
