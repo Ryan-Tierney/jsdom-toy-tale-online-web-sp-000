@@ -40,5 +40,5 @@ function toyCreator() {
         document.body.appendChild(h2);
       });
     
-  };
+  }
 }
